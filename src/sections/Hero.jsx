@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight, FiDownload } from 'react-icons/fi';
+import resumePdf from '../assets/Sivasankar_Resume.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -62,6 +63,13 @@ const Hero = () => {
                         >
                             Contact Me
                         </button>
+                        <a
+                            href={resumePdf}
+                            download="Sivasankar_Resume.pdf"
+                            className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
+                        >
+                            <FiDownload /> Resume
+                        </a>
                     </div>
                 </div>
             </div>
