@@ -56,11 +56,11 @@ export const portfolioData = {
         },
         {
             id: 3,
-            title: "CMS Integration Platform",
-            description: "Customized and integrated WordPress plugins/themes alongside specific web solutions. Managed third-party API automation.",
+            title: "WapCar Content Management System",
+            description: "Customized and integrated WordPress plugins/themes alongside specific web solutions. Managed third-party API automation for the WapCar platform.",
             techStack: ["WordPress", "Third-Party APIs"],
-            githubLink: "https://github.com/",
-            liveLink: "https://demo.com",
+            githubLink: "#",
+            liveLink: "https://www.wapcar.my/",
             image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800"
         }
     ],
