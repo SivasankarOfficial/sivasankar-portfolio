@@ -7,8 +7,7 @@ const ProjectCard = ({ project }) => {
             color="#3b82f6"
             speed={1}
             chaos={0.12}
-            thickness={2}
-            style={{ borderRadius: '1rem' }}
+            borderRadius={16}
             className="h-full flex flex-col group p-0"
         >
             <div className="bg-white dark:bg-darkCard overflow-hidden shadow-sm flex flex-col h-full rounded-[inherit] relative z-10">
