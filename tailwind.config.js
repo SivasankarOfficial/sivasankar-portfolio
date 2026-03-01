@@ -16,6 +16,7 @@ export default {
                 'text-gradient': 'text-gradient 3s linear infinite',
                 'bg-shift': 'bg-shift 10s ease infinite',
                 'electric': 'electric 1.5s ease-in-out infinite alternate',
+                'electric-dash': 'electric-dash 3s linear infinite',
             },
             keyframes: {
                 'text-gradient': {
@@ -29,6 +30,10 @@ export default {
                 'electric': {
                     '0%': { boxShadow: '0 0 5px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3)', borderColor: 'rgba(59, 130, 246, 0.5)' },
                     '100%': { boxShadow: '0 0 10px rgba(96, 165, 250, 0.8), 0 0 40px rgba(96, 165, 250, 0.6)', borderColor: 'rgba(96, 165, 250, 1)' },
+                },
+                'electric-dash': {
+                    '0%': { strokeDashoffset: '1000' },
+                    '100%': { strokeDashoffset: '0' },
                 },
             },
             backgroundSize: {
