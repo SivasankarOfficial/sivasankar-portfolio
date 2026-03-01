@@ -2,7 +2,7 @@ export const portfolioData = {
     personalInfo: {
         name: "Sivasankar S",
         title: "Senior Software Engineer",
-        email: "siva.sankar@thecloudside.com",
+        email: "sivasankarsiva2001@gmail.com",
         overview: "3 years of hands-on experience in frontend-focused web development, specializing in HTML, CSS, JavaScript, and React.js, with additional experience in backend development using Node.js, Express.js, MongoDB, and PostgreSQL.\n\nStrong proficiency in building responsive, high-performance, and user-friendly interfaces using modern HTML5, CSS3, JavaScript (ES6+), and React.js best practices.\n\nExperienced in developing RESTful APIs and server-side applications using Node.js and Express.js as part of full-stack development tasks.\n\nSkilled in working with MongoDB and PostgreSQL for building schemas, writing queries, and managing data in web applications.\n\nCapable of integrating third-party APIs, implementing authentication (JWT/OAuth), and ensuring secure backend logic where required.",
         github: "https://github.com/",
         linkedin: "https://linkedin.com/"
@@ -10,7 +10,7 @@ export const portfolioData = {
     socialLinks: [
         { name: "GitHub", url: "https://github.com/", icon: "github" },
         { name: "LinkedIn", url: "https://linkedin.com/", icon: "linkedin" },
-        { name: "Email", url: "mailto:siva.sankar@thecloudside.com", icon: "mail" }
+        { name: "Email", url: "mailto:sivasankarsiva2001@gmail.com", icon: "mail" }
     ],
     skills: {
         frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "ReactJs", "Responsive UI"],
