@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
-import resumePdf from '../assets/Sivasankar_Resume.pdf';
+import resumePdf from '../assets/Sivasankar_Sr Software Engineer.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
