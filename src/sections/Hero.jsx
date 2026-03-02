@@ -76,7 +76,7 @@ const Hero = () => {
                     </div>
 
                     <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-                        <ProfilePic />
+                        <ProfilePic src={"src/assets/profile.jpeg"} />
                     </div>
                 </div>
             </div>
