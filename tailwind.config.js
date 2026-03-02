@@ -17,6 +17,8 @@ export default {
 				'bg-shift': 'bg-shift 10s ease infinite',
 				'electric': 'electric 1.5s ease-in-out infinite alternate',
 				'electric-dash': 'electric-dash 3s linear infinite',
+				'spin-slow': 'spin 8s linear infinite',
+				'float': 'float 6s ease-in-out infinite',
 			},
 			keyframes: {
 				'text-gradient': {
@@ -34,6 +36,10 @@ export default {
 				'electric-dash': {
 					'0%': { strokeDashoffset: '1000' },
 					'100%': { strokeDashoffset: '0' },
+				},
+				float: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-20px)' },
 				},
 			},
 			backgroundSize: {

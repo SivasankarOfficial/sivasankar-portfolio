@@ -1,9 +1,10 @@
 import { useRef } from 'react';
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
-import resumePdf from '../assets/Sivasankar_Sr Software Engineer.pdf';
+import resumePdf from '../assets/Sivasankar_Resume.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import ProfilePic from '../components/ProfilePic';
 
 const Hero = () => {
     const { name, title, overview } = portfolioData.personalInfo;
@@ -36,40 +37,46 @@ const Hero = () => {
             </div>
 
             <div className="w-full relative z-10">
-                <div className="max-w-3xl">
-                    <p className="hero-element text-primary dark:text-blue-400 font-medium tracking-wide mb-2 uppercase text-sm">
-                        Hi, my name is
-                    </p>
-                    <h1 className="hero-element text-5xl md:text-7xl font-extrabold tracking-tight mb-4 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 bg-300% animate-text-gradient">
-                        {name}.
-                    </h1>
-                    <h2 className="hero-element text-3xl md:text-5xl font-bold text-gray-600 dark:text-gray-400 mb-6 group">
-                        I'm a {title}.
-                    </h2>
-                    <p className="hero-element text-lg text-gray-600 dark:text-gray-400 mb-10 leading-relaxed max-w-2xl">
-                        {overview.split('\n\n')[0]}
-                    </p>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div className="max-w-3xl order-2 lg:order-1 pt-4 lg:pt-0">
+                        <p className="hero-element text-primary dark:text-blue-400 font-medium tracking-wide mb-2 uppercase text-sm">
+                            Hi, my name is
+                        </p>
+                        <h1 className="hero-element text-5xl md:text-7xl font-extrabold tracking-tight mb-4 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 dark:from-blue-400 dark:via-purple-400 dark:to-indigo-400 bg-300% animate-text-gradient">
+                            {name}.
+                        </h1>
+                        <h2 className="hero-element text-3xl md:text-5xl font-bold text-gray-600 dark:text-gray-400 mb-6 group">
+                            I'm a {title}.
+                        </h2>
+                        <p className="hero-element text-lg text-gray-600 dark:text-gray-400 mb-10 leading-relaxed max-w-xl">
+                            {overview.split('\n\n')[0]}
+                        </p>
 
-                    <div className="hero-element flex flex-wrap gap-4">
-                        <button
-                            onClick={() => handleScrollTo('projects')}
-                            className="bg-primary hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
-                        >
-                            Check out my work <FiArrowRight />
-                        </button>
-                        <button
-                            onClick={() => handleScrollTo('contact')}
-                            className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300"
-                        >
-                            Contact Me
-                        </button>
-                        <a
-                            href={resumePdf}
-                            download="Sivasankar_Resume.pdf"
-                            className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
-                        >
-                            <FiDownload /> Resume
-                        </a>
+                        <div className="hero-element flex flex-wrap gap-4">
+                            <button
+                                onClick={() => handleScrollTo('projects')}
+                                className="bg-primary hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
+                            >
+                                Check out my work <FiArrowRight />
+                            </button>
+                            <button
+                                onClick={() => handleScrollTo('contact')}
+                                className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300"
+                            >
+                                Contact Me
+                            </button>
+                            <a
+                                href={resumePdf}
+                                download="Sivasankar_Resume.pdf"
+                                className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
+                            >
+                                <FiDownload /> Resume
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+                        <ProfilePic />
                     </div>
                 </div>
             </div>
