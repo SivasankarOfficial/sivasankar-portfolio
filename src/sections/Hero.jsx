@@ -4,7 +4,7 @@ import resumePdf from '../assets/Sivasankar_Resume.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import profilePic from "../assets/profile.jpeg";
+import profileImg from "./assets/profile.jpeg";
 
 const Hero = () => {
     const { name, title, overview } = portfolioData.personalInfo;
@@ -76,7 +76,7 @@ const Hero = () => {
                     </div>
 
                     <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-                        <ProfilePic src={profilePic} />
+                        <ProfilePic src={profileImg} />
                     </div>
                 </div>
             </div>
