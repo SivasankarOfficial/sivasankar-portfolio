@@ -5,11 +5,11 @@ export const portfolioData = {
         email: "sivasankarsiva2001@gmail.com",
         overview: "3 years of hands-on experience in frontend-focused web development, specializing in HTML, CSS, JavaScript, and React.js, with additional experience in backend development using Node.js, Express.js, MongoDB, and PostgreSQL.\n\nStrong proficiency in building responsive, high-performance, and user-friendly interfaces using modern HTML5, CSS3, JavaScript (ES6+), and React.js best practices.\n\nExperienced in developing RESTful APIs and server-side applications using Node.js and Express.js as part of full-stack development tasks.\n\nSkilled in working with MongoDB and PostgreSQL for building schemas, writing queries, and managing data in web applications.\n\nCapable of integrating third-party APIs, implementing authentication (JWT/OAuth), and ensuring secure backend logic where required.",
         github: "https://github.com/SivasankarOfficial",
-        linkedin: "linkedin.com/in/sivasankar-s-8693ab218"
+        linkedin: "https://www.linkedin.com/in/sivasankar-s-8693ab218/"
     },
     socialLinks: [
         { name: "GitHub", url: "https://github.com/SivasankarOfficial", icon: "github" },
-        { name: "LinkedIn", url: "linkedin.com/in/sivasankar-s-8693ab218/", icon: "linkedin" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/sivasankar-s-8693ab218/", icon: "linkedin" },
         { name: "Email", url: "mailto:sivasankarsiva2001@gmail.com", icon: "mail" }
     ],
     skills: {
