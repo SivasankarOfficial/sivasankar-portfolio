@@ -22,16 +22,25 @@ export const portfolioData = {
         {
             id: 1,
             role: "Senior Software Engineer",
-            company: "The Cloudside",
-            duration: "Present",
+            company: "The Cloudside Technologies",
+            duration: "2025 - Present",
             description: [
-                "Developed responsive and interactive frontend applications using HTML, CSS, JavaScript, and React.js, ensuring high performance.",
-                "Built reusable React components, implemented state management, and optimized UI rendering.",
-                "Collaborated on full-stack features using Node.js and Express, contributing to REST API development.",
-                "Worked with MongoDB and PostgreSQL for building basic schemas and writing queries.",
-                "Implemented basic authentication workflows using JWT and handled secure API interactions.",
+                "Leading the development of responsive and interactive frontend applications using HTML, CSS, JavaScript, and React.js, ensuring high performance.",
+                "Designing reusable React components, implementing advanced state management, and optimizing UI rendering processes.",
+                "Collaborating on full-stack feature delivery using Node.js and Express, contributing to REST API development."
+            ]
+        },
+        {
+            id: 2,
+            role: "Software Engineer",
+            company: "The Cloudside Technologies",
+            duration: "2023 - 2024",
+            description: [
+                "Developed scalable full-stack web applications and integrated responsive frontend interfaces.",
+                "Worked with MongoDB and PostgreSQL for building database schemas and writing queries.",
+                "Implemented authentication workflows using JWT and handled secure API interactions.",
                 "Integrated third-party APIs into web applications to enable dynamic content and automation.",
-                "Performed API testing and debugging using Postman to validate endpoints."
+                "Performed comprehensive API testing and debugging using Postman to validate endpoints."
             ]
         }
     ],
