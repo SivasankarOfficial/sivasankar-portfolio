@@ -4,7 +4,7 @@ import resumePdf from '../assets/Sivasankar_Resume.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import profileImg from "./assets/profile.jpeg";
+import profileImg from "../assets/profile.jpeg";
 
 const Hero = () => {
     const { name, title, overview } = portfolioData.personalInfo;
