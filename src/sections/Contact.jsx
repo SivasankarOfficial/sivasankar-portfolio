@@ -1,7 +1,15 @@
 import { portfolioData } from '../data/portfolioData';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 const Contact = () => {
     const { personalInfo, socialLinks } = portfolioData;
+
+    const iconMap = {
+        github: <FaGithub className="text-xl" />,
+        linkedin: <FaLinkedin className="text-xl" />,
+        mail: <SiGmail className="text-xl" />
+    };
 
     return (
         <section id="contact" className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
@@ -29,9 +37,9 @@ const Contact = () => {
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-300 font-medium"
+                        className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors duration-300 font-medium flex items-center gap-2 hover:-translate-y-1 transform"
                     >
-                        {link.name}
+                        {iconMap[link.icon]} <span>{link.name}</span>
                     </a>
                 ))}
             </div>

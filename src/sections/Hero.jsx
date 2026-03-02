@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 import resumePdf from '../assets/Sivasankar_Resume.pdf';
 import { portfolioData } from '../data/portfolioData';
 import gsap from 'gsap';
@@ -72,6 +74,34 @@ const Hero = () => {
                                 className="bg-transparent border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white text-gray-900 dark:text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center gap-2"
                             >
                                 <FiDownload /> Resume
+                            </a>
+                        </div>
+
+                        <div className="hero-element flex gap-6 mt-8">
+                            <a
+                                href={portfolioData.personalInfo.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-600 hover:text-[#0077b5] dark:text-gray-400 dark:hover:text-[#0077b5] transition-colors text-3xl hover:-translate-y-1 transform duration-300"
+                                aria-label="LinkedIn"
+                            >
+                                <FaLinkedin />
+                            </a>
+                            <a
+                                href={portfolioData.personalInfo.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors text-3xl hover:-translate-y-1 transform duration-300"
+                                aria-label="GitHub"
+                            >
+                                <FaGithub />
+                            </a>
+                            <a
+                                href={`mailto:${portfolioData.personalInfo.email}`}
+                                className="text-gray-600 hover:text-[#EA4335] dark:text-gray-400 dark:hover:text-[#EA4335] transition-colors text-3xl hover:-translate-y-1 transform duration-300"
+                                aria-label="Gmail"
+                            >
+                                <SiGmail />
                             </a>
                         </div>
                     </div>
