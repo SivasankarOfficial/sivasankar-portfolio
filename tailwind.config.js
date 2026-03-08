@@ -8,9 +8,9 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#3b82f6",
-				darkBg: "#0f172a",
-				darkCard: "#1e293b",
+				primary: "#06b6d4",
+				darkBg: "#00050b",
+				darkCard: "#031122",
 			},
 			animation: {
 				'text-gradient': 'text-gradient 3s linear infinite',
@@ -30,8 +30,8 @@ export default {
 					'50%': { backgroundPosition: '100% 50%' },
 				},
 				'electric': {
-					'0%': { boxShadow: '0 0 5px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3)', borderColor: 'rgba(59, 130, 246, 0.5)' },
-					'100%': { boxShadow: '0 0 10px rgba(96, 165, 250, 0.8), 0 0 40px rgba(96, 165, 250, 0.6)', borderColor: 'rgba(96, 165, 250, 1)' },
+					'0%': { boxShadow: '0 0 5px rgba(6, 182, 212, 0.5), 0 0 20px rgba(6, 182, 212, 0.3)', borderColor: 'rgba(6, 182, 212, 0.5)' },
+					'100%': { boxShadow: '0 0 10px rgba(34, 211, 238, 0.8), 0 0 40px rgba(34, 211, 238, 0.6)', borderColor: 'rgba(34, 211, 238, 1)' },
 				},
 				'electric-dash': {
 					'0%': { strokeDashoffset: '1000' },
