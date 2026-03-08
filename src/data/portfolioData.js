@@ -1,13 +1,9 @@
-import aiProject1 from '../assets/ai_project_1.png';
-import aiProject2 from '../assets/ai_project_2.png';
-import aiProject3 from '../assets/ai_project_3.png';
-
 export const portfolioData = {
     personalInfo: {
         name: "Sivasankar S",
-        title: "AI Systems Architect & Software Engineer",
+        title: "Senior Software Engineer",
         email: "sivasankarsiva2001@gmail.com",
-        overview: "3 years of hands-on experience in cutting-edge web development, specializing in building responsive, high-performance intelligent interfaces using HTML, CSS, JavaScript, and React.js. Additional deep expertise in backend architecture using Node.js, Express.js, MongoDB, and PostgreSQL.\n\nStrong proficiency in building next-generation futuristic, user-friendly UI logic using modern HTML5, CSS3, JavaScript (ES6+), and React.js best practices mapping to advanced state-management workflows.\n\nExperienced in developing robust RESTful APIs and secure server-side applications using Node.js and Express.js to power full-stack neural development tasks.\n\nSkilled in working with MongoDB and PostgreSQL for building intelligent schemas, writing optimized data processing algorithms, and managing high-load data in cloud-based web applications.\n\nCapable of integrating third-party APIs, implementing machine-grade authentication workflows (JWT/OAuth), and ensuring completely secure backend data logic where required.\n\nFast learner with the ability to quickly adapt to novel neural networks, programming languages, and intelligent AI-assisted tooling in dynamic development environments.",
+        overview: "3 years of hands-on experience in frontend-focused web development, specializing in HTML, CSS, JavaScript, and React.js, with additional experience in backend development using Node.js, Express.js, MongoDB, and PostgreSQL.\n\nStrong proficiency in building responsive, high-performance, and user-friendly interfaces using modern HTML5, CSS3, JavaScript (ES6+), and React.js best practices.\n\nExperienced in developing RESTful APIs and server-side applications using Node.js and Express.js as part of full-stack development tasks.\n\nSkilled in working with MongoDB and PostgreSQL for building schemas, writing queries, and managing data in web applications.\n\nCapable of integrating third-party APIs, implementing authentication (JWT/OAuth), and ensuring secure backend logic where required.\n\nFast learner with the ability to quickly adapt to new programming languages, tools, and technologies in dynamic development environments.",
         github: "https://github.com/SivasankarOfficial",
         linkedin: "https://www.linkedin.com/in/sivasankar-s-8693ab218/"
     },
@@ -17,10 +13,10 @@ export const portfolioData = {
         { name: "Email", url: "mailto:sivasankarsiva2001@gmail.com", icon: "mail" }
     ],
     skills: {
-        frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "ReactJs", "Animated UI/UX"],
-        backend: ["Node.js", "Express.js", "RESTful Data Pipelines"],
-        database_orm: ["MongoDB", "PostgreSQL", "Data Architecture", "Prisma"],
-        tools: ["Git", "GitHub", "Cloud Deployment", "AI Tooling", "JWT Auth", "OAuth"]
+        frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "ReactJs", "Responsive UI"],
+        backend: ["Node.js", "Express.js", "REST APIs"],
+        database_orm: ["MongoDB", "PostgreSQL", "Mongoose", "Prisma"],
+        tools: ["Git", "GitHub", "npm", "yarn", "Postman", "WordPress", "JWT", "OAuth"]
     },
     experience: [
         {
@@ -29,9 +25,9 @@ export const portfolioData = {
             company: "The Cloudside Technologies",
             duration: "2025 - Present",
             description: [
-                "Leading the development of highly responsive and interactive frontend applications using React.js and advanced predictive rendering.",
-                "Designing reusable React UI components, implementing complex scalable state management, and optimizing the application cognitive load.",
-                "Collaborating on full-stack AI/feature delivery using Node.js and Express, contributing to distributed REST API development."
+                "Leading the development of responsive and interactive frontend applications using HTML, CSS, JavaScript, and React.js, ensuring high performance.",
+                "Designing reusable React components, implementing advanced state management, and optimizing UI rendering processes.",
+                "Collaborating on full-stack feature delivery using Node.js and Express, contributing to REST API development."
             ]
         },
         {
@@ -40,41 +36,41 @@ export const portfolioData = {
             company: "The Cloudside Technologies",
             duration: "2023 - 2024",
             description: [
-                "Developed scalable full-stack web applications and integrated interactive, intelligent frontend interfaces.",
-                "Worked with MongoDB and PostgreSQL for building database schemas, handling secure storage queries, and managing complex payloads.",
-                "Implemented secure authentication workflows using JWT and handled sensitive API security interactions.",
-                "Integrated third-party APIs and machine-learning driven tools into web applications to enable dynamic content and pipeline automation.",
-                "Performed comprehensive API integration testing and debugging tools using Postman to strictly validate node endpoints."
+                "Developed scalable full-stack web applications and integrated responsive frontend interfaces.",
+                "Worked with MongoDB and PostgreSQL for building database schemas and writing queries.",
+                "Implemented authentication workflows using JWT and handled secure API interactions.",
+                "Integrated third-party APIs into web applications to enable dynamic content and automation.",
+                "Performed comprehensive API testing and debugging using Postman to validate endpoints."
             ]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Cybernetic Frontend Dashboard",
-            description: "Developed interactive frontend AI-driven control dashboard rendering seamless user experiences with high performance graphical abstractions.",
-            techStack: ["React.js", "JavaScript", "Advanced UI", "CSS3"],
+            title: "Interactive Frontend Applications",
+            description: "Developed responsive frontend applications rendering seamless user experiences with high performance and optimized UI states.",
+            techStack: ["React.js", "JavaScript", "HTML5", "CSS3"],
             githubLink: "https://github.com/",
             liveLink: "https://demo.com",
-            image: aiProject1
+            image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=800"
         },
         {
             id: 2,
-            title: "Neural Network Backend Core",
-            description: "Collaborated on full-stack features, integrating the frontend with a secure Node.js/Express backend algorithm, managing high-volume data streams.",
+            title: "Full-Stack Web Module",
+            description: "Collaborated on full-stack features, integrating frontend with Node.js/Express backend, managing databases and securing APIs.",
             techStack: ["Node.js", "Express.js", "MongoDB", "React.js"],
             githubLink: "https://github.com/",
             liveLink: "https://demo.com",
-            image: aiProject2
+            image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
         },
         {
             id: 3,
-            title: "WapCar Content Automation AI",
-            description: "Customized and integrated content management solutions alongside intelligent specific web solutions. Managed third-party pipeline automation for the WapCar platform.",
-            techStack: ["CMS", "Third-Party Pipelines"],
+            title: "WapCar Content Management System",
+            description: "Customized and integrated WordPress plugins/themes alongside specific web solutions. Managed third-party API automation for the WapCar platform.",
+            techStack: ["WordPress", "Third-Party APIs"],
             githubLink: "#",
             liveLink: "https://www.wapcar.my/",
-            image: aiProject3
+            image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800"
         }
     ],
     education: [
@@ -83,13 +79,13 @@ export const portfolioData = {
             degree: "Bachelor of Science, Information Technology",
             institution: "University",
             year: "2022",
-            description: "Completed comprehensive studies in technology, algorithm logic programming, and complex systems architecture."
+            description: "Completed comprehensive studies in technology, programming, and system architecture."
         }
     ],
     certifications: [
         {
             id: 1,
-            name: "Certified Full Stack Systems Developer",
+            name: "Certified as a Full Stack Developer",
             issuer: "Certification Authority",
             year: "2022",
             link: "#"
