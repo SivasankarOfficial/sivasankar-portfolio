@@ -41,6 +41,10 @@ export default {
 					'0%, 100%': { transform: 'translateY(0)' },
 					'50%': { transform: 'translateY(-20px)' },
 				},
+				scan: {
+					'0%, 100%': { transform: 'translateY(0vh)' },
+					'50%': { transform: 'translateY(100vh)' },
+				},
 			},
 			backgroundSize: {
 				'300%': '300% 300%',

@@ -6,9 +6,11 @@ import Home from './pages/Home';
 import StickySocials from './components/StickySocials';
 import ScrollToTop from './components/ScrollToTop';
 import abstractOrb from './assets/abstract_orb.png';
+import JarvisBoot from './components/JarvisBoot';
 
 function App() {
     const [darkMode, setDarkMode] = useState(true);
+    const [bootComplete, setBootComplete] = useState(false);
 
     useEffect(() => {
         const isDark = localStorage.getItem('theme') === 'dark' ||
@@ -31,6 +33,8 @@ function App() {
     return (
         <HashRouter>
             <div className="bg-gray-50 text-gray-900 dark:bg-darkBg dark:text-gray-100 min-h-screen transition-colors duration-300">
+                {!bootComplete && <JarvisBoot onComplete={() => setBootComplete(true)} />}
+
                 <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 
                 {/* Global Background Images */}
