@@ -34,16 +34,16 @@ function App() {
                 <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 
                 {/* Global Background Images */}
-                <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+                <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden mix-blend-screen">
                     <img
                         src={abstractOrb}
                         alt="abstract background design"
-                        className="absolute -right-64 top-40 w-[600px] h-[600px] opacity-[0.03] dark:opacity-[0.15] animate-spin-slow"
+                        className="absolute -right-64 top-40 w-[600px] h-[600px] opacity-[0.05] dark:opacity-[0.25] animate-spin-slow"
                     />
                     <img
                         src={abstractOrb}
                         alt="abstract background design"
-                        className="absolute -left-64 bottom-40 w-[500px] h-[500px] opacity-[0.03] dark:opacity-[0.15] animate-float max-h-screen"
+                        className="absolute -left-64 bottom-40 w-[500px] h-[500px] opacity-[0.05] dark:opacity-[0.25] animate-float max-h-screen"
                     />
                 </div>
 
